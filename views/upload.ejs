@@ -1,0 +1,18 @@
+<%- include("./includes/head.ejs") %>
+
+</head>
+
+<body>
+    <form class="product-form" action="/file/upload" method="POST" enctype="multipart/form-data">
+        
+         <div class="form-control">
+            <label for="image">Image</label>
+            <input type="file" name="image" id="image" >
+        </div>
+        
+        <button class="btn" type="submit">Upload</button>
+    </form>
+
+
+
+<%- include("./includes/end.ejs") %>
