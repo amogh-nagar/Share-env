@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.product-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 158px;
+    background-color: aquamarine;
+}
+
+.container{
+    height: 234px;
+    background: blueviolet;
+    width: 100%;
+}
+
+.form-control{
+    margin: 21px 24px;
+}

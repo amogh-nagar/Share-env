@@ -1,10 +1,14 @@
 <%- include("./includes/head.ejs") %>
-
+<link rel="stylesheet" href="/css/uploads.css">
 </head>
 
 <body>
+    <div class="container"></div>
     <form class="product-form" action="/file/upload" method="POST" enctype="multipart/form-data">
-        
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" name="email">
+        </div>
          <div class="form-control">
             <label for="image">Image</label>
             <input type="file" name="image" id="image" >

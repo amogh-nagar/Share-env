@@ -9,5 +9,6 @@ router.post('/upload',fileupload.single('image'),filecontroller.savefile)
 
 router.get('/getfile/:uuid',filecontroller.getfile)
 
+router.get('/success',filecontroller.success)
 
 module.exports  = router
